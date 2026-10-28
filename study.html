@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Data Science and Informatics at MIDRAND UNIVERSITY. A DSI236 academic department website prototype.">
+  <meta name="theme-color" content="#132f38">
+  <title>Study with us | MIDRAND UNIVERSITY</title>
+  <link rel="icon" href="assets/images/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script><script src="js/study.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="utility"><div class="container utility-inner"><span>MIDRAND UNIVERSITY <span class="utility-divider">/</span> Faculty of Science & Technology</span><span class="prototype">Academic prototype</span></div></div>
+<header class="site-header">
+ <div class="container header-inner">
+  <a class="brand" href="index.html" aria-label="MIDRAND UNIVERSITY department home"><img src="assets/images/mark.svg" width="44" height="44" alt=""><span><strong>MIDRAND</strong><small>UNIVERSITY</small></span></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span aria-hidden="true">☰</span> Menu</button>
+  <nav id="primary-nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="study.html" aria-current="page">Study</a><a href="research.html">Research & lab</a><a href="people.html">Our people</a><a class="nav-contact" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a></nav>
+ </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-heading container"><p class="breadcrumb"><a href="index.html">Department</a> / Study</p><p class="eyebrow">BUILD YOUR FOUNDATION</p><h1>Ideas become skills.<br><em>Skills become possibilities.</em></h1><p class="lead">Explore a connected study path in Data Science and Informatics, one module at a time.</p></section>
+<section class="container degree-banner" aria-labelledby="degree-heading"><div><span class="tag tag-light">SAMPLE HONOURS PROGRAMME</span><h2 id="degree-heading">BSc Honours in<br>Data Science & Informatics</h2><p>A balanced foundation in computing, statistical thinking and responsible, practical applications of data.</p></div><dl class="degree-facts"><div><dt>Duration</dt><dd>4 years</dd></div><div><dt>Learning</dt><dd>Projects + practice</dd></div><div><dt>Focus</dt><dd>Data to decisions</dd></div></dl><a class="button button-light" href="contact.html?topic=Programme%20enquiry">Ask about studying <span aria-hidden="true">↗</span></a></section>
+<section class="section container" id="module-explorer" aria-labelledby="modules-heading"><div class="section-heading"><div><p class="eyebrow">MAKE THE PATH YOURS</p><h2 id="modules-heading">Explore the modules.</h2></div><p>Search by title, code or topic. Save modules to a personal study plan on this browser.</p></div><div class="explorer-layout"><div><form id="module-filters" class="filter-panel" role="search" aria-label="Find modules"><div class="search-field"><label for="module-search">Search modules</label><input id="module-search" type="search" placeholder="Try Python, media or statistics" autocomplete="off"></div><div><label for="year-filter">Year of study</label><select id="year-filter"><option value="all">All years</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option></select></div><div><label for="area-filter">Study area</label><select id="area-filter"><option value="all">All study areas</option><option>Computing</option><option>Statistics</option><option>Data Science</option><option>Media</option><option>Professional Practice</option></select></div><button class="text-link reset-link" id="reset-filters" type="button">Reset filters</button></form><p id="module-count" class="result-count" role="status" aria-live="polite"></p><div id="module-grid" class="module-grid"></div><noscript><p>Module examples include DSI101 Programming Fundamentals, DSI210 Statistical Inference, DSI236 Introduction to Media Application Development and DSI310 Machine Learning. Enable JavaScript to explore all modules.</p></noscript></div><aside class="study-plan" aria-labelledby="plan-heading"><span class="mini-icon" aria-hidden="true">＋</span><h3 id="plan-heading">Your study plan</h3><p class="small">A shortlist for your next conversation.</p><p id="storage-note" class="small muted">Saved on this browser. No account needed.</p><div id="plan-items"></div><div class="plan-actions"><button id="download-plan" class="button" type="button" disabled>Download plan <span aria-hidden="true">↓</span></button><button id="clear-plan" class="text-link" type="button" disabled>Clear saved modules</button></div><p class="small muted">This plan is a personal shortlist. It does not enrol you in a module.</p></aside></div></section>
+<section class="container callout"><div><p class="eyebrow">NOT SURE WHERE TO START?</p><h2>Let’s talk about your interests.</h2><p>Ask a question about the sample programme, learning opportunities or practical projects.</p></div><a class="button" href="contact.html">Make an enquiry <span aria-hidden="true">↗</span></a></section>
+<dialog id="module-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="Close module details">×</button><p id="dialog-code" class="eyebrow"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><h3>What you will practise</h3><ul id="dialog-outcomes"></ul><p id="dialog-assessment" class="detail-note"></p><button id="dialog-save" class="button" type="button"></button></div></dialog>
+</main>
+<footer class="site-footer">
+ <div class="container footer-top"><div><a class="footer-brand" href="index.html">MIDRAND UNIVERSITY</a><p>Department of Data Science<br>& Informatics</p><p class="footer-tagline">Curiosity. Evidence. Impact.</p></div><div><h2>Explore the department</h2><a href="study.html">Programmes & modules</a><a href="research.html#learning-lab">Interactive learning lab</a><a href="people.html">Meet our people</a><a href="contact.html">Enquiries & FAQs</a></div><div><h2>Your next chapter</h2><p>Bring your questions.<br>Build something that matters.</p><a class="button button-light" href="study.html">Find your study path <span aria-hidden="true">↗</span></a></div></div>
+ <div class="container footer-bottom"><p>© 2026 MIDRAND UNIVERSITY · DSI236 student project.</p><p>Illustrative programmes, staff, events and campus imagery. No official admissions service.</p></div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<noscript><div class="noscript-note">JavaScript is disabled. Page content and links remain available. Enable JavaScript for filtering, your study plan and the clustering lab.</div></noscript>
+</body>
+</html>
